@@ -5,7 +5,7 @@ To do that type "pip install pygame" in the terminal (without the quotes)
 * For mac replace 'pip' with 'pip3'
 
 Add both files to a folder,
-Open the folder in your code editor of choice (We used VScode)
+Open the folder in your code editor of choice (We used VScode) or run directly.
 
 Run the main.py file and the GUI window(pygame) will pop up.
 - Choose a suitable block on the grid and click it, [selected block will turn BLUE]
