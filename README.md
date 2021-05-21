@@ -1,7 +1,7 @@
 # DSA-Project
 
 To run this code you will need to install pygame
-To do that type "pip install pygame" in the terminal (without the qoutes)
+To do that type "pip install pygame" in the terminal (without the quotes)
 * For mac replace 'pip' with 'pip3'
 
 Add both files to a folder,
