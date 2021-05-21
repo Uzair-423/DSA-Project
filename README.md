@@ -20,9 +20,11 @@ Run the main.py file and the GUI window(pygame[1]) will pop up.
 - - These are the barriers 
 - Press 'Enter' or 'Return'(Mac) to run the code
 
-Use 'R' key to reset the grid 
+Use 'R' key to reset the grid <br />
 
-
+We took inspiration from various sources to see how this algorithm is implemented. <br />
+- Pur2all, Pathfinder, (2020), Github repository <br /> https://github.com/Pur2all/Pathfinder/blob/master/Pathfinder.py
 
 **REFERENCES** <br />
 [1] Pete Shinners (2011). PyGame - Python Game Development. Retrieved from http://www.pygame.org
+
