@@ -24,5 +24,5 @@ Use 'R' key to reset the grid
 
 
 
-**REFERENCES**
+**REFERENCES** <br />
 [1] Pete Shinners (2011). PyGame - Python Game Development. Retrieved from http://www.pygame.org
