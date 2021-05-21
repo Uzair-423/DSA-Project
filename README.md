@@ -11,7 +11,7 @@ To do that type "pip install pygame" in the terminal (without the quotes)
 Add both files to a folder,
 Open the folder in your code editor of choice (We used VScode) or run directly.
 
-Run the main.py file and the GUI window(pygame) will pop up.
+Run the main.py file and the GUI window(pygame[1]) will pop up.
 - Choose a suitable block on the grid and click it, [selected block will turn BLUE]
 - - This is the starting block
 - Move mouse to any other location and click again, [selected block will turn MAROON]
@@ -21,3 +21,8 @@ Run the main.py file and the GUI window(pygame) will pop up.
 - Press 'Enter' or 'Return'(Mac) to run the code
 
 Use 'R' key to reset the grid 
+
+
+
+**REFERENCES**
+- Pete Shinners (2011). PyGame - Python Game Development. Retrieved from http://www.pygame.org
