@@ -1,6 +1,6 @@
 # DSA-Project
 
-**Introduction** <br />
+**Introduction:** <br />
 Our code finds the shortest path between a starting and an ending block on a grid, while avoiding any obstructions.
 - It implements the Astar algorithm to find the shortest path 
 
