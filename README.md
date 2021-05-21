@@ -1,5 +1,9 @@
 # DSA-Project
 
+##Introduction
+Our code finds the shortest path between a starting and an ending block on a grid, while avoiding any obstructions.
+- It implements the Astar algorithm to find the shortest path 
+
 To run this code you will need to install pygame
 To do that type "pip install pygame" in the terminal (without the quotes)
 * For mac replace 'pip' with 'pip3'
