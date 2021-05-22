@@ -1,7 +1,7 @@
 import pygame
 
 
-# Definingcolors
+# Defining colors
 grey = (128, 128, 128)
 blue = (0, 0, 255)
 maroon = (128, 0, 0)
