@@ -94,7 +94,6 @@ def get_clicked_pos(pos, rows, width):
 def algorithm(win, grid, ROWS, width, start, target):
 
     queue = []  # Making a priority queue
-    queue = enqueue(queue, (0, start))
     parent = {}
 
     f_values = {}
@@ -106,6 +105,7 @@ def algorithm(win, grid, ROWS, width, start, target):
             f_values[node] = 1000000000000000000000000000000000000000000000000000
             g_values[node] = 1000000000000000000000000000000000000000000000000000
 
+    queue = enqueue(queue, (0, start))
     f_values[start] = h_function(start.position(), target.position())
     g_values[start] = 0
 
