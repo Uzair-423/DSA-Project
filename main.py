@@ -78,18 +78,7 @@ def draw(win, grid, rows, width):
     pygame.display.update()
 
 
-# Getting the position of the node which the user clicked
-def get_clicked_pos(pos, rows, width):
-    gap = width // rows
-    y, x = pos
-
-    row = y // gap
-    col = x // gap
-
-    return row, col
-
 # A Start Algorithm
-
 
 def algorithm(win, grid, ROWS, width, start, target):
 
@@ -157,8 +146,8 @@ def algorithm(win, grid, ROWS, width, start, target):
 def main(win, width):
 
     # setting up parameters
-    ROWS = 50
-    grid = make_grid(ROWS, width)
+    rows = 50
+    grid = make_grid(rows, width)
 
     start = None
     target = None
@@ -166,7 +155,7 @@ def main(win, width):
 
     # Watching out for events and calling functions based on it
     while run:
-        draw(win, grid, ROWS, width)
+        draw(win, grid, rows, width)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
@@ -176,7 +165,13 @@ def main(win, width):
 
                 # Determining which node is pressed
                 pos = pygame.mouse.get_pos()
-                row, col = get_clicked_pos(pos, ROWS, width)
+
+                # Getting the position of the node which the user clicked
+                gap = width // rows
+                y, x = pos
+                row = y // gap
+                col = x // gap
+
                 node = grid[row][col]
 
                 # Checks to determine what state to set the node to
@@ -200,13 +195,13 @@ def main(win, width):
                         for node in row:
                             node.refresh_neighbours(grid)
 
-                    algorithm(win, grid, ROWS, width, start, target)
+                    algorithm(win, grid, rows, width, start, target)
 
                 # If "r" key is pressed, then reset the grid
                 if event.key == pygame.K_r:
                     start = None
                     target = None
-                    grid = make_grid(ROWS, width)
+                    grid = make_grid(rows, width)
 
     pygame.quit()
 
